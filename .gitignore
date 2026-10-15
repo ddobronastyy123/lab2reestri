@@ -1,0 +1,14 @@
+@"
+node_modules/
+.next/
+artifacts/
+cache/
+types/
+ignition/deployments/
+.env
+.env*
+*.pem
+*.key
+*.log
+.DS_Store
+"@ | Set-Content -Encoding utf8 .gitignore
